@@ -1,0 +1,7 @@
+codimth.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\codimth_controller\Controller\CodimthController::index'
+    _title: 'Create a custom page in drupal 8!'
+  requirements:
+    _permission: 'access content'
